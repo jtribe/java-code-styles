@@ -247,7 +247,7 @@ public class MainActivity extends Activity {
     public void onPause() {}
     
     @Override 
-    public void onDestory() {}
+    public void onDestroy() {}
 
 }
 ```
