@@ -156,6 +156,7 @@ See more info [here](https://source.android.com/source/code-style.html#fully-qua
 Fields should be defined at the __top of the file__ and they should follow the naming rules listed below.
 
 * All fields start with a lower case letter.
+* Hungarian notation shouldn't be used.
 * Static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
 
 Example:
@@ -208,11 +209,11 @@ Example:
 ```java
 public class MainActivity extends Activity {
 
-    private String mTitle;
-    private TextView mTextViewTitle;
+    private String title;
+    private TextView textViewTitle;
     
     public void setTitle(String title) {
-        mTitle = title;
+        this.title = title;
     }
     
     @Override 
