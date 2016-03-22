@@ -157,6 +157,7 @@ Fields should be defined at the __top of the file__ and they should follow the n
 
 * All fields start with a lower case letter.
 * Hungarian notation shouldn't be used.
+* One field per line. 
 * Static final fields (constants) are ALL_CAPS_WITH_UNDERSCORES.
 
 Example:
